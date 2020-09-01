@@ -1,0 +1,86 @@
+.content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.medias {
+    display: flex;
+    justify-content: center;
+}
+
+.medias > .card {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100px;
+    height: 100px;
+    margin: 0 30px;
+}
+
+.card.facebook > .layer {
+    background: #38529A;
+}
+
+.card.twitter > .layer {
+    background: #4EA6E9;
+}
+
+.card.google > .layer {
+    background: #D54C3F;
+}
+
+.card.linkedin > .layer {
+    background: #0073B1;
+}
+
+.card.instagram > .layer {
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.medias > .card > .layer {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    transform: rotate3d(1.8, 0.6, 1, -75deg);
+    transition: all .3s ease;
+}
+
+.medias > .card > .layer.icon {
+    display: inline-grid;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+.medias > .card:hover .layer:nth-child(1) {
+    opacity: .1;
+    margin-bottom: 0;
+}
+
+.medias > .card:hover .layer:nth-child(2) {
+    opacity: .25;
+    margin-bottom: 10px;
+}
+
+.medias > .card:hover .layer:nth-child(3) {
+    opacity: .5;
+    margin-bottom: 20px;
+}
+
+.medias > .card:hover .layer:nth-child(4) {
+    opacity: .75;
+    margin-bottom: 30px;
+}
+
+.medias > .card:hover .layer:nth-child(5) {
+    opacity: 1;
+    margin-bottom: 40px;
+}
