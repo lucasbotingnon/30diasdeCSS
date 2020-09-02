@@ -43,3 +43,8 @@ https://github.com/MilenaCarecho/30diasDeCSS
 
 [Codepen](https://codepen.io/lucasbotingnon/pen/OJNxOxG) <br>
 [Meu codigo](https://github.com/lucasbotingnon/30diasdeCSS/tree/master/Dia01) 
+
+##  Desafio dia 02 - Loader animado <a name="id02"></a> (fazendo)
+
+[Codepen]() <br>
+[Meu codigo]() 
