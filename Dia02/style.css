@@ -1,0 +1,111 @@
+body {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(https://orsted.com/-/media/WWW/Images/Corp/Campaign/SpaceSafari/space-safari-background.png);
+}
+
+.loading > .text {
+    position: relative;
+    z-index: 2;
+    font-size: 25px;
+    color: #38321b;
+    font-weight: bold;
+}
+
+.loading > .planet {
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+    height: 200px;
+    width: 200px;
+    animation: planet 10s infinite linear;
+    background: url(https://www.onlygfx.com/wp-content/uploads/2018/09/4-clipart-sun-1.png) no-repeat;
+    background-size: contain;
+}
+
+.loading > .moon {
+    position: absolute;
+    z-index: 1;
+    top: calc(50% - 100px);
+    left: calc(50% - 100px);
+    height: 200px;
+    width: 200px;
+    border-radius: 150px;
+}
+
+.loading > .moon.one {
+    animation: moon1 10s infinite linear;
+}
+
+.loading > .moon.two {
+    animation: moon2 20s infinite linear;
+}
+
+.loading > .moon.three {
+    left: calc(50% - 70px);
+    top: calc(50% - 50px);
+    animation: moon3 30s infinite linear;
+}
+
+.loading > .moon.four {
+    left: calc(50% - 140px);
+    top: calc(50% - 50px);
+    animation: moon4 9s infinite linear;
+}
+
+@keyframes planet {
+    from { transform: rotate(0deg); }
+    to{ transform: rotate(-360deg); }
+}
+
+@keyframes moon1 {
+    from {
+        transform: rotate(360deg);
+        box-shadow: 135px 1px 0px -95px #FFF;
+    }
+    to{
+        transform: rotate(-360deg);
+        box-shadow: 135px 1px 0px -95px #FFF;
+    }
+}
+
+@keyframes moon2 {
+    from {
+        transform: rotate(360deg);
+        box-shadow: 210px 1px 0px -95px #FFF;
+    }
+    to{
+        transform: rotate(-360deg);
+        box-shadow: 210px 1px 0px -95px #FFF;
+    }
+}
+
+@keyframes moon3 {
+    from {
+        transform: rotate(360deg);
+        box-shadow: 265px 1px 0px -95px #FFF;
+    }
+    to{
+        transform: rotate(-360deg);
+        box-shadow: 265px 1px 0px -95px #FFF;
+    }
+}
+
+@keyframes moon4 {
+    from {
+        transform: rotate(360deg);
+        box-shadow: 180px 1px 0px -95px #FFF;
+    }
+    to {
+        transform: rotate(-360eg);
+        box-shadow: 180px 1px 0px -95px #FFF;
+    }
+}
