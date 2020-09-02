@@ -40,10 +40,6 @@ https://github.com/MilenaCarecho/30diasDeCSS
 * [Dia 30 - Fogos de artificio](#id30)
 
 ##  Desafio dia 01 - Ícone de mídia social em camadas <a name="id01"></a>
-![Dia 01]()
 
-
-[Meu codigo]() 
-
-
-##### O que eu aprendi
+[Codepen](https://codepen.io/lucasbotingnon/pen/OJNxOxG) <br>
+[Meu codigo](https://github.com/lucasbotingnon/30diasdeCSS/tree/master/Dia01) 
